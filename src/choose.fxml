@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true">
+         <image>
+            <Image url="@images/choosescreen.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="mage" layoutX="79.0" layoutY="255.0" mnemonicParsing="false" onAction="#mageclick" prefHeight="25.0" prefWidth="82.0" text="Mage">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="swordsman" layoutX="445.0" layoutY="255.0" mnemonicParsing="false" onAction="#swordsmanclick" text="Swordsman">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="20.0" layoutY="105.0" pickOnBounds="true">
+         <image>
+            <Image url="@../mage.gif" />
+         </image></ImageView>
+      <ImageView fitHeight="253.0" fitWidth="189.0" layoutX="392.0" layoutY="2.0" pickOnBounds="true">
+         <image>
+            <Image url="@../swordsman.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
