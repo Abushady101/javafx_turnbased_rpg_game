@@ -1,0 +1,26 @@
+.anchor {
+    -fx-background-image:url('background2.gif');
+    -fx-background-size: 100% 100%;
+}
+.fire{-fx-background-image:url('fireball.gif');
+-fx-background-size:120% 120%;
+-fx-background-color: #e25822;
+
+}
+.lightening{-fx-background-image:url('lightening.gif');
+-fx-background-size: 100% 100%;}
+.manashield{-fx-background-image:url('manashield.gif');
+-fx-background-size: 100% 100%;}
+.ult1 {-fx-background-image:url('dragonbt.gif');
+-fx-background-size: 100% 100%;}
+.slash {-fx-background-image:url('slashbt.gif');
+-fx-background-size: 100% 100%;}
+.tornado {-fx-background-image:url('tornadobt.gif');
+-fx-background-size: 100% 100%;}
+.strikebt {-fx-background-image:url('strikebt.gif');
+-fx-background-size: 100% 100%;}
+.ult2 {-fx-background-image:url('ulticon.gif');
+-fx-background-size: 100% 100%;}
+.fboss {
+    -fx-background-image:url('fbossscene.gif');
+    -fx-background-size: 100% 100%;}
